@@ -1,0 +1,3 @@
+op user provision --name "John Doe" --email "john.doe@email.com"
+op user confirm --all
+op group provision --name "Finance (Sample)" --user "john.doe@email.com"
