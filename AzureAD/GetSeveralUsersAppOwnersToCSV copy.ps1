@@ -1,3 +1,6 @@
+# Needed Modules:
+# AzureAD - https://www.powershellgallery.com/packages/AzureAD/
+
 # Check if AzureAD module is installed, if not, prompt the user to install it
 if (-not (Get-Module -Name AzureAD -ListAvailable)) {
     Write-Host "AzureAD module is not installed. Please install the AzureAD module before running this script."
